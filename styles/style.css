@@ -36,7 +36,8 @@ body {
   background: #ffffff;
 }
 
-main {
+main,
+footer {
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
@@ -240,6 +241,13 @@ nav {
   color: #474747;
   font-size: 15px;
   font-weight: 400;
+}
+.icon-container {
+  margin-top: 20px;
+}
+.icon-container a {
+  text-decoration: none;
+  margin: 0 5px;
 }
 
 input,
